@@ -103,10 +103,7 @@
           <mxGeometry x="27.25" y="140" width="42.75" height="62" as="geometry" />
         </mxCell>
         <mxCell id="vq8xcfpxxcRhSU_fI69L-17" value="Amazon Inspector" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.inspector;fillColor=#759C3E;gradientColor=none;" parent="isAH6hYrp2FoeotMpuvc-139" vertex="1">
-          <mxGeometry x="131.25" y="30" width="67.5" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="Ot_9Nm7mI1eEcwjc_TMm-1" value="Disstre recovery" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.disaster_recovery;" vertex="1" parent="isAH6hYrp2FoeotMpuvc-139">
-          <mxGeometry x="142.60000000000002" y="148.60000000000002" width="44.8" height="44.8" as="geometry" />
+          <mxGeometry x="131.25" y="59" width="67.5" height="81" as="geometry" />
         </mxCell>
         <mxCell id="vq8xcfpxxcRhSU_fI69L-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="wrVh2azv1X8ovIQ36o97-6" source="isAH6hYrp2FoeotMpuvc-148" target="isAH6hYrp2FoeotMpuvc-149" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -156,6 +153,9 @@
         </mxCell>
         <mxCell id="isAH6hYrp2FoeotMpuvc-160" value="Multi-AZ" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_multi_az;" parent="isAH6hYrp2FoeotMpuvc-149" vertex="1">
           <mxGeometry x="32" y="50" width="78" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Ot_9Nm7mI1eEcwjc_TMm-1" value="Disstre recovery" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.disaster_recovery;" vertex="1" parent="isAH6hYrp2FoeotMpuvc-149">
+          <mxGeometry x="140" y="60" width="44.8" height="44.8" as="geometry" />
         </mxCell>
         <mxCell id="vq8xcfpxxcRhSU_fI69L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="wrVh2azv1X8ovIQ36o97-6" source="isAH6hYrp2FoeotMpuvc-112" target="isAH6hYrp2FoeotMpuvc-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
