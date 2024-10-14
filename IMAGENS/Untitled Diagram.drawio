@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="0lDnAEJZzvXgzKgYgCWk">
-    <mxGraphModel dx="3080" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2175" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,29 +124,13 @@
           <mxGeometry x="960" y="1110" width="540" height="170" as="geometry" />
         </mxCell>
         <mxCell id="isAH6hYrp2FoeotMpuvc-158" value="S3" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#33FF33;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.aws_s3;" parent="isAH6hYrp2FoeotMpuvc-149" vertex="1">
-          <mxGeometry x="330" y="59.25" width="60" height="58.75" as="geometry" />
+          <mxGeometry x="350" y="59.25" width="60" height="58.75" as="geometry" />
         </mxCell>
-        <mxCell id="isAH6hYrp2FoeotMpuvc-159" value="RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" parent="isAH6hYrp2FoeotMpuvc-149" vertex="1">
-          <mxGeometry x="420" y="60" width="58" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="isAH6hYrp2FoeotMpuvc-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" parent="isAH6hYrp2FoeotMpuvc-149" source="isAH6hYrp2FoeotMpuvc-161" target="isAH6hYrp2FoeotMpuvc-159" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="259" y="20" />
-              <mxPoint x="460" y="20" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Ktf0LwEoRJvFVPVnJmWu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=1;" edge="1" parent="isAH6hYrp2FoeotMpuvc-149" source="isAH6hYrp2FoeotMpuvc-161" target="isAH6hYrp2FoeotMpuvc-158">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="isAH6hYrp2FoeotMpuvc-161" value="AWS Backup" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.backup;" parent="isAH6hYrp2FoeotMpuvc-149" vertex="1">
           <mxGeometry x="220" y="40" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="isAH6hYrp2FoeotMpuvc-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.948;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="isAH6hYrp2FoeotMpuvc-149" source="isAH6hYrp2FoeotMpuvc-161" target="isAH6hYrp2FoeotMpuvc-158" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="278" y="20" />
-              <mxPoint x="387" y="20" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="isAH6hYrp2FoeotMpuvc-160" value="Multi-AZ" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_multi_az;" parent="isAH6hYrp2FoeotMpuvc-149" vertex="1">
           <mxGeometry x="32" y="50" width="78" height="58" as="geometry" />
